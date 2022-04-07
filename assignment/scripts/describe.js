@@ -27,9 +27,9 @@ if (number >= 2) {
 
 // 1. WRITE YOUR DESCRIPTION HERE
 // 
-// 
-// 
-//
+// Create a variable called name.
+// Write a conditional statement that checks if name is strictly equals Mary.
+// If name equals Mary, then console log 'Hi, Mary!'. Otherwise, console log 'How do you do?'.
 
 //CODE
 /*
@@ -45,10 +45,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create an empty variable called secret.
+// Create a variable called code and assign number 123 to it.
+// Write a conditional statement to check if code strictly equals 123. 
+// If code equals 123, then assign 'super' to secret variable and multiply code variable by 2.
+// Write a conditional statement to check if code is greater than 250. 
+// If code is greater than 250, assign value 'duper' to code.
+// Console log secret.
 
 //CODE
 /*
@@ -70,10 +73,16 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create a variable called isStudent and assign it to true.
+// Create a variable called age and assign it 34.
+// Create a variable called zip and assign it 55407.
+// Create a conditional statement that checks if isStudent strictly equals true and zip is greater than 8000.
+// Console log 'You're a student on the West Coast!'.
+// Create else if statement to check if isStudent strictly equals false or age is less than 30. 
+// Console log 'What are your hobbies?'.
+// Create else if statement to check if isStudent stricly equals true.
+// Console log 'Welcome to Prime!'.
+// Create else statement to console log 'How about the weather?'.
 
 //CODE
 /*
@@ -130,6 +139,10 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// FIX - colorOne should be set to blue and colorTwo should be set to red.
+// colorTwo should also be equal to 'purple' so line 151 should be colorOne = colorTwo = 'purple'.
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
@@ -144,6 +157,10 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+
+// FIX - The logical operator should be changed to && (AND). If not, console will always log 'throw away the food'
+// no matter what the temp is set to since time is always 4. 
+
 let temp = 40;
 const time = 4;
 
@@ -157,6 +174,9 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+
+// FIX - Line 183 should be if (minAge > age). 
+
 let age = 21;
 const minAge = 21;
 
